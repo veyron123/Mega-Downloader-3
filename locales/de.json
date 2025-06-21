@@ -1,0 +1,79 @@
+{
+  "pageTitle": "Mega-Downloader: Videos von YouTube und anderen Websites herunterladen",
+  "description": "Kostenloser Online-Downloader zum Herunterladen von Videos von YouTube, TikTok, Facebook und mehr. Schnell, einfach und ohne Registrierung.",
+  "nav": {
+    "youtube": "YouTube",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "tiktok": "TikTok",
+    "transcription": "KI-Transkriptionswerkzeug",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "YouTube-Video-Downloader",
+    "placeholder": "Fügen Sie Ihre URL ein...",
+    "button": "Herunterladen",
+    "terms": "Durch die Nutzung unseres Dienstes akzeptieren Sie unsere <a href=\"/de/terms\">Nutzungsbedingungen</a>"
+  },
+  "how_it_works": {
+    "title": "Wie lädt man Videos von YouTube, TikTok und Facebook herunter?",
+    "subtitle": "Mega-Downloader macht das Herunterladen von Videos so einfach wie möglich. Mit unserem YouTube-Video-Downloader können Sie Inhalte in hoher Qualität in nur wenigen Schritten speichern. Sie müssen keine fragwürdigen Programme oder Browser-Erweiterungen mehr installieren. Folgen Sie einfach dieser Anleitung, um schnell und sicher jedes Video von beliebten Plattformen wie YouTube, TikTok oder Facebook herunterzuladen.",
+    "step1_title": "URL kopieren",
+    "step1_desc": "Öffnen Sie das Video auf YouTube, Facebook, TikTok oder einer anderen Plattform, das Sie herunterladen möchten. Kopieren Sie den vollständigen Link (URL) aus der Adressleiste Ihres Browsers.",
+    "step2_title": "Link einfügen",
+    "step2_desc": "Kehren Sie zur Mega-Downloader-Website zurück und fügen Sie den kopierten Link in das Eingabefeld oben auf der Seite ein. Unser Dienst wird Ihre Anfrage automatisch bearbeiten.",
+    "step3_title": "Datei herunterladen",
+    "step3_desc": "Nach der Verarbeitung des Links sehen Sie die verfügbaren Formate und Qualitätsoptionen. Wählen Sie die passende Option und klicken Sie auf die Schaltfläche \"Herunterladen\", um das Video auf Ihr Gerät herunterzuladen."
+  },
+  "features": {
+    "subtitle": "Funktionen",
+    "title": "Was uns besonders macht",
+    "no_limits": "<b>Keine Download-Beschränkungen:</b> Sie können eine beliebige Anzahl von Videos ohne Einschränkungen herunterladen.",
+    "free_download": "<b>Kostenloser Download:</b> Sie können YouTube-Videos völlig kostenlos in MP4 konvertieren.",
+    "best_speeds": "<b>Beste Geschwindigkeiten:</b> Unsere Plattform konvertiert YouTube-Videos mit den höchsten Geschwindigkeiten.",
+    "easy_to_use": "<b>Einfach zu bedienen:</b> Sie können YouTube-Videos einfach mit wenigen Klicks herunterladen.",
+    "no_apps": "<b>Keine Apps erforderlich:</b> Da unser Tool online funktioniert, müssen Sie keine Software oder Erweiterungen installieren.",
+    "secure": "<b>Gut gesichert:</b> Unsere Website ist sehr gut geschützt. Wir verarbeiten Millionen von Downloads von früher. Sie müssen sich also keine Sorgen um die Sicherheit machen."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen zu Mega-Downloader",
+    "q1": "Ist Mega-Downloader kostenlos?",
+    "a1": "Ja, Mega-Downloader ist ein völlig kostenloses Tool. Sie können es verwenden, um eine unbegrenzte Anzahl von YouTube-Videos kostenlos herunterzuladen.",
+    "q2": "Ist es legal, Videos mit Mega-Downloader herunterzuladen?",
+    "a2": "Das Herunterladen von YouTube-Videos kann gegen die Nutzungsbedingungen von YouTube verstoßen. Wir empfehlen, nur Videos herunterzuladen, für die Sie die Erlaubnis haben oder die gemeinfrei sind.",
+    "q3": "Muss ich eine Software installieren?",
+    "a3": "Nein, Mega-Downloader ist ein Online-Tool. Sie müssen keine Software или Browser-Erweiterungen installieren. Fügen Sie einfach die Video-URL ein und laden Sie sie direkt von unserer Website herunter.",
+    "q4": "In welchen Formaten kann ich Videos herunterladen?",
+    "a4": "Mega-Downloader unterstützt das Herunterladen von Videos in verschiedenen Formaten und Auflösungen, einschließlich MP4, WebM und anderen. Sie können Ihr bevorzugtes Format auswählen, nachdem Sie die Video-URL eingefügt haben.",
+    "q5": "Ist die Verwendung von Mega-Downloader sicher?",
+    "a5": "Ja, wir legen größten Wert auf die Sicherheit unserer Benutzer. Unsere Website ist sicher und wir speichern weder Ihre Videos noch Ihre persönlichen Daten."
+  },
+  "footer": {
+    "rights": "&copy; 2024 Mega-Downloader. Alle Rechte vorbehalten.",
+    "more_links": "Weitere Links",
+    "terms_link": "Nutzungsbedingungen",
+    "languages": "Sprachen"
+  },
+  "transcribe_page": {
+    "title": "Online-Audio-zu-Text-Konverter",
+    "subtitle": "Transkribieren Sie Audio in Text mit Mega-Downloader – einem KI-gestützten Transkriptionswerkzeug, das über 99 Sprachen unterstützt. Starten Sie noch heute kostenlos.",
+    "local_file_title": "Konvertierung lokaler Dateien",
+    "local_file_desc": "Laden Sie eine Audiodatei von Ihrem Computer zur Transkription hoch.",
+    "drop_zone_prompt": "Klicken Sie zum Hochladen oder ziehen Sie die Datei hierher",
+    "upload_button": "Audio hochladen",
+    "url_title": "Transkription von URL",
+    "url_desc": "Fügen Sie einfach eine Multimedia-URL ein, um Audio von einer Webseite zu transkribieren.",
+    "url_placeholder": "https://youtube.com/...",
+    "url_button": "URL hochladen",
+    "info_duration": "*Unterstützt Dateien bis zu 30 Minuten",
+    "info_quota": "Kostenloses Transkriptionskontingent: 2 Nutzungen",
+    "quota_tooltip": "Dies ist die Anzahl der im kostenlosen Plan verfügbaren Transkriptionen.",
+    "features_title_1": "Höchste Genauigkeit",
+    "features_title_2": "Unbegrenzte Nutzung",
+    "features_title_3": "Unterstützung für über 99 Sprachen",
+    "features_title_4": "Sprecheridentifikation",
+    "features_title_5": "Dateien in 6 Stunden",
+    "features_title_6": "Vertraulichkeit und Sicherheit"
+  }
+}

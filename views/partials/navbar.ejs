@@ -1,0 +1,30 @@
+<nav class="navbar">
+    <div class="navbar-logo"><a href="/<%= lang %>/"><%= t.nav.youtube %>-Downloader</a></div>
+    <button class="hamburger-menu" aria-label="Open navigation menu">&#9776;</button>
+    <div class="navbar-links">
+        <a href="/<%= lang %>/"><%= t.nav.youtube %></a>
+        <a href="/<%= lang %>/facebook"><%= t.nav.facebook %></a>
+        <a href="/<%= lang %>/instagram"><%= t.nav.instagram %></a>
+        <a href="/<%= lang %>/twitter"><%= t.nav.twitter %></a>
+        <a href="/<%= lang %>/tiktok"><%= t.nav.tiktok %></a>
+        <a href="/<%= lang %>/transcribe"><%= t.nav.transcription %></a>
+        <div class="dropdown" id="languageDropdownNav">
+            <a href="#" class="dropdown-toggle"><%= t.nav.language %> <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></a>
+            <div class="dropdown-content">
+                <a href="/ru/" data-lang="ru">Русский</a>
+                <a href="/en/" data-lang="en">English</a>
+                <a href="/es/" data-lang="es">Español</a>
+                <a href="/de/" data-lang="de">Deutsch</a>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-actions">
+        <div class="theme-toggle-container">
+            <div class="theme-toggle" id="themeToggle">
+                <div class="theme-toggle-button"></div>
+                <svg class="theme-toggle-icon sun" viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zm-9-7c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1s-1 .45-1 1v2c0 .55.45 1 1 1zm0 12c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1v2c0 .55.45 1 1 1zm-5.66-8.34c-.39-.39-1.02-.39-1.41 0l-1.41 1.41c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.41-1.41c.39-.39.39-1.02 0-1.41zm11.32 0c.39-.39.39-1.02 0-1.41l-1.41-1.41c-.39-.39-1.02-.39-1.41 0s-.39 1.02 0 1.41l1.41 1.41c.39.39 1.02.39 1.41 0z"></path></svg>
+                <svg class="theme-toggle-icon moon" viewBox="0 0 24 24"><path d="M10 2c-1.82 0-3.53.5-5 1.35 2.99 1.73 5 4.95 5 8.65s-2.01 6.92-5 8.65C6.47 21.5 8.18 22 10 22c5.52 0 10-4.48 10-10S15.52 2 10 2z"></path></svg>
+            </div>
+        </div>
+    </div>
+</nav>
