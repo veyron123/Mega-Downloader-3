@@ -11,7 +11,7 @@ body, html {
 .hero-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 100px 24px 150px 24px;
+    padding: 100px 24px 50px 24px;
     text-align: center;
     position: relative;
 }
@@ -280,6 +280,7 @@ body.dark-mode .app-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .url-form {
@@ -418,7 +419,10 @@ body.dark-mode .ad-placeholder {
 
 #cardApiIframe {
     width: 100%;
+    max-width: 784px;
     border: none;
+    display: block;
+    margin-left: 50px;
 }
 
 /* --- Стили для секции "Что делает нас особенными" --- */
@@ -1039,4 +1043,209 @@ body.dark-mode .feature-item {
 .feature-item img {
     width: 24px;
     height: 24px;
+}
+.transcribe-container {
+    display: flex;
+    gap: 30px;
+}
+
+.transcribe-card {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.transcribe-card-icon {
+    background-color: #fde6eb;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.transcribe-card-icon svg {
+    color: #ed4a75;
+    width: 24px;
+    height: 24px;
+}
+
+.transcribe-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.transcribe-card-text {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+    max-width: 300px;
+}
+
+.drop-zone {
+    border: 2px dashed #d1d5db;
+    border-radius: 12px;
+    padding: 40px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: background-color 0.2s;
+}
+
+.url-input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 0 12px;
+    margin-bottom: 24px;
+}
+
+.url-input-wrapper svg {
+    color: #9ca3af;
+    margin-right: 8px;
+}
+
+.url-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+}
+
+.btn-transcribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ed4a75;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 16px;
+}
+
+.transcribe-card-footer {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.download-widget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 8px;
+    max-width: 784px;
+    margin: 40px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.download-widget .url-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #888;
+}
+
+.download-btn-container {
+    display: flex;
+    align-items: center;
+    background-color: #7f5cff; /* More accurate purple */
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+.download-btn-container:hover {
+    background-color: #6a44e9;
+}
+
+.quality-selector {
+    position: relative;
+    padding: 12px 15px 12px 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.dropdown-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid white;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 110%; /* Выпадание вниз с небольшим отступом */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    z-index: 10;
+    width: max-content;
+}
+
+.dropdown-menu.hidden {
+    display: none;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.download-icon-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 12px 20px 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#download-status {
+    margin-top: 15px;
+    color: #333;
+}
+
+body.dark-mode #download-status {
+    color: #f0f2f5;
 }

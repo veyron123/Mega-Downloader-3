@@ -18,12 +18,20 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="description" content="<%= t.description %>">
+    <meta name="kadam-verification" content="kadamdaaba3c00ea56791f5564fa8143d1fac" />
+    <meta confirm="partners-house-188682"/>
     <title><%= serviceName %></title>
+    <link rel="canonical" href="https://mega-downloader.xyz<%= originalUrl %>" />
+    <meta property="og:title" content="<%= serviceName %>" />
+    <meta property="og:description" content="<%= t.description %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mega-downloader.xyz<%= originalUrl %>" />
+    <meta property="og:image" content="https://mega-downloader.xyz/og-image.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@700&display=swap"></noscript>
+    <link rel="stylesheet" href="/style.css?v=<%= Date.now() %>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js"></script>
 </head>
 <body>
@@ -31,20 +39,26 @@
     <div class="hero-section">
         <h1><%= serviceName %></h1>
         <div class="download-section">
-            <form class="url-form" id="urlForm">
-                <input type="url" id="urlInput" placeholder="<%= t.hero.placeholder %>" required>
-                <div class="button-group">
-                    <button type="submit" id="downloadButton">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
-                        <%= t.hero.button %>
+            <div class="download-widget">
+                <input type="text" id="video-url-input" class="url-input" placeholder="Paste Your URL...">
+                <div class="download-btn-container">
+                    <div class="quality-selector">
+                        <span id="selected-quality">MP4 (720p)</span>
+                        <div class="dropdown-arrow"></div>
+                        <ul id="quality-dropdown" class="dropdown-menu hidden">
+                            <li data-quality="1080">MP4 (1080p)</li>
+                            <li data-quality="720">MP4 (720p)</li>
+                            <li data-quality="480">MP4 (480p)</li>
+                            <li data-quality="360">MP4 (360p)</li>
+                        </ul>
+                    </div>
+                    <button id="download-button" class="download-icon-btn">
+                        Download
                     </button>
                 </div>
-            </form>
-            <p style="padding: 0 8px; color: #e0e7ff;"><%- t.hero.terms %></p>
-    
-            <div class="content-container">
-                <iframe id="cardApiIframe" src="about:blank"></iframe>
             </div>
+            <div id="download-status"></div>
+            <div id="iframe-container" style="width: 100%; margin-top: 20px; display: flex; justify-content: center;"></div>
         </div>
     </div>
 
@@ -54,7 +68,7 @@
         <%- include('partials/faq', { t: t, lang: lang }) %>
     </div>
 
-    <%- include('partials/footer', { t: t, lang: lang }) %>
-    <script src="/main.js"></script>
+    <%- include('partials/footer', { t: t, lang: lang, originalUrl: originalUrl }) %>
+    <script src="/main.js?v=<%= Date.now() %>" defer></script>
 </body>
 </html>

@@ -59,13 +59,15 @@
     "title": "Convertidor de audio a texto en línea",
     "subtitle": "Transcribe audio a texto con Mega-Downloader, una herramienta de transcripción impulsada por IA que admite más de 99 idiomas. Comienza gratis hoy.",
     "local_file_title": "Conversión de archivo local",
-    "local_file_desc": "Sube un archivo de audio desde tu computadora para transcribirlo.",
-    "drop_zone_prompt": "Haz clic para subir o arrastra и suelta",
+    "local_file_text": "Sube un archivo de audio o video desde tu computadora para transcribirlo.",
+    "drop_zone_prompt": "Haz clic para subir, o arrastra y suelta",
     "upload_button": "Subir audio",
+    "local_file_footer": "*Admite archivos de hasta 30 minutos",
     "url_title": "Transcripción desde URL",
-    "url_desc": "Simplemente pega una URL multimedia para transcribir audio desde una página web.",
-    "url_placeholder": "https://youtube.com/...",
-    "url_button": "Subir URL",
+    "url_text": "Simplemente pega una URL multimedia para transcribir audio desde una página web.",
+    "url_placeholder": "Pega la URL del video...",
+    "transcribe_button": "Transcribir",
+    "url_footer": "*Cuota de transcripción gratuita: 2 usos",
     "info_duration": "*Admite archivos de hasta 30 minutos",
     "info_quota": "Cuota de transcripción gratuita: 2 usos",
     "quota_tooltip": "Este es el número de transcripciones disponibles en el plan gratuito.",
@@ -75,5 +77,29 @@
     "features_title_4": "Identificación de hablante",
     "features_title_5": "Archivos en 6 horas",
     "features_title_6": "Confidencialidad y seguridad"
+  },
+  "legal_disclaimer": {
+    "title": "Aviso Legal",
+    "p1": "Nuestro servicio es una herramienta técnica que permite a los usuarios descargar contenido disponible públicamente de diversas plataformas para uso personal (por ejemplo, para verlo sin conexión o crear una copia de seguridad).",
+    "p2": "No almacenamos contenido en nuestros servidores. Toda la responsabilidad por el uso de los materiales obtenidos a través de nuestro servicio recae en el usuario final. Recomendamos encarecidamente respetar los derechos de autor y no utilizar nuestra herramienta para descargar y distribuir contenido protegido por derechos de autor sin el permiso del titular de los derechos.",
+    "p3": "Asegúrese de que sus acciones cumplan con la legislación de su país y los términos de uso de las plataformas respectivas."
+  },
+  "privacy_policy": {
+    "title": "Política de Privacidad",
+    "p1": "Valoramos su privacidad. Esta política explica qué datos recopilamos y cómo los usamos.",
+    "h2_1": "¿Qué datos recopilamos?",
+    "p2": "No recopilamos, almacenamos ni compartimos ninguna información personal sobre nuestros usuarios. No requerimos registro. Podemos recopilar datos de uso anónimos (por ejemplo, el número de descargas) para mejorar nuestro servicio. No registramos direcciones IP ni las URL que ingresa.",
+    "h2_2": "¿Cómo usamos sus datos?",
+    "p3": "Dado que no recopilamos datos personales, no los utilizamos de ninguna manera. Las estadísticas anónimas se utilizan únicamente para análisis técnico y para mejorar nuestro servicio.",
+    "h2_3": "Seguridad",
+    "p4": "Todas las conexiones a nuestro sitio están protegidas con cifrado SSL (HTTPS), lo que garantiza la seguridad de los datos transmitidos."
+  },
+  "terms_of_service": {
+    "title": "Términos de Servicio",
+    "p1": "Al utilizar nuestro sitio, usted acepta estos Términos de Servicio.",
+    "h2_1": "Uso Responsable",
+    "p2": "Usted se compromete a utilizar nuestro servicio solo para fines legales y de acuerdo con las reglas de las plataformas desde las que descarga contenido. Usted es el único responsable de cumplir con los derechos de autor.",
+    "h2_2": "Limitación de Responsabilidad",
+    "p3": "El servicio se proporciona 'tal cual'. No somos responsables de ningún daño que surja del uso de nuestro sitio o de la falta de disponibilidad del servicio."
   }
 }

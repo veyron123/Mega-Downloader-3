@@ -59,13 +59,15 @@
     "title": "Online-Audio-zu-Text-Konverter",
     "subtitle": "Transkribieren Sie Audio in Text mit Mega-Downloader – einem KI-gestützten Transkriptionswerkzeug, das über 99 Sprachen unterstützt. Starten Sie noch heute kostenlos.",
     "local_file_title": "Konvertierung lokaler Dateien",
-    "local_file_desc": "Laden Sie eine Audiodatei von Ihrem Computer zur Transkription hoch.",
+    "local_file_text": "Laden Sie eine Audio- oder Videodatei von Ihrem Computer hoch, um sie zu transkribieren.",
     "drop_zone_prompt": "Klicken Sie zum Hochladen oder ziehen Sie die Datei hierher",
     "upload_button": "Audio hochladen",
+    "local_file_footer": "*Unterstützt Dateien bis zu 30 Minuten",
     "url_title": "Transkription von URL",
-    "url_desc": "Fügen Sie einfach eine Multimedia-URL ein, um Audio von einer Webseite zu transkribieren.",
-    "url_placeholder": "https://youtube.com/...",
-    "url_button": "URL hochladen",
+    "url_text": "Fügen Sie einfach eine Multimedia-URL ein, um Audio von einer Webseite zu transkribieren.",
+    "url_placeholder": "Fügen Sie die Video-URL ein...",
+    "transcribe_button": "Transkribieren",
+    "url_footer": "*Kostenloses Transkriptionskontingent: 2 Nutzungen",
     "info_duration": "*Unterstützt Dateien bis zu 30 Minuten",
     "info_quota": "Kostenloses Transkriptionskontingent: 2 Nutzungen",
     "quota_tooltip": "Dies ist die Anzahl der im kostenlosen Plan verfügbaren Transkriptionen.",
@@ -75,5 +77,29 @@
     "features_title_4": "Sprecheridentifikation",
     "features_title_5": "Dateien in 6 Stunden",
     "features_title_6": "Vertraulichkeit und Sicherheit"
+  },
+  "legal_disclaimer": {
+    "title": "Rechtlicher Hinweis",
+    "p1": "Unser Dienst ist ein technisches Werkzeug, das es Benutzern ermöglicht, öffentlich verfügbare Inhalte von verschiedenen Plattformen für den persönlichen Gebrauch herunterzuladen (z. B. zum Offline-Ansehen oder Erstellen einer Sicherungskopie).",
+    "p2": "Wir speichern keine Inhalte auf unseren Servern. Die gesamte Verantwortung für die Nutzung der über unseren Dienst erhaltenen Materialien liegt beim Endbenutzer. Wir empfehlen dringend, die Urheberrechte zu respektieren und unser Tool nicht zum Herunterladen und Verbreiten von urheberrechtlich geschützten Inhalten ohne die Erlaubnis des Rechteinhabers zu verwenden.",
+    "p3": "Bitte stellen Sie sicher, dass Ihre Handlungen den Gesetzen Ihres Landes und den Nutzungsbedingungen der jeweiligen Plattformen entsprechen."
+  },
+  "privacy_policy": {
+    "title": "Datenschutzrichtlinie",
+    "p1": "Wir schätzen Ihre Privatsphäre. Diese Richtlinie erklärt, welche Daten wir sammeln und wie wir sie verwenden.",
+    "h2_1": "Welche Daten sammeln wir?",
+    "p2": "Wir sammeln, speichern oder teilen keine persönlichen Informationen über unsere Benutzer. Wir benötigen keine Registrierung. Wir können anonyme Nutzungsdaten (z. B. die Anzahl der Downloads) sammeln, um unseren Dienst zu verbessern. Wir protokollieren keine IP-Adressen oder die von Ihnen eingegebenen URLs.",
+    "h2_2": "Wie verwenden wir Ihre Daten?",
+    "p3": "Da wir keine persönlichen Daten sammeln, verwenden wir sie in keiner Weise. Anonyme Statistiken werden ausschließlich zur technischen Analyse und zur Verbesserung unseres Dienstes verwendet.",
+    "h2_3": "Sicherheit",
+    "p4": "Alle Verbindungen zu unserer Website sind mit SSL-Verschlüsselung (HTTPS) geschützt, was die Sicherheit der übertragenen Daten gewährleistet."
+  },
+  "terms_of_service": {
+    "title": "Nutzungsbedingungen",
+    "p1": "Durch die Nutzung unserer Website stimmen Sie diesen Nutzungsbedingungen zu.",
+    "h2_1": "Verantwortungsvolle Nutzung",
+    "p2": "Sie stimmen zu, unseren Dienst nur für rechtmäßige Zwecke und in Übereinstimmung mit den Regeln der Plattformen zu nutzen, von denen Sie Inhalte herunterladen. Sie sind allein für die Einhaltung der Urheberrechte verantwortlich.",
+    "h2_2": "Haftungsbeschränkung",
+    "p3": "Der Dienst wird 'wie besehen' bereitgestellt. Wir haften nicht für Schäden, die aus der Nutzung unserer Website oder der Nichtverfügbarkeit des Dienstes entstehen."
   }
 }

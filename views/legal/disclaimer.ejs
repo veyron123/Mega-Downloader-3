@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <%- include('../partials/google-analytics') %>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= t.legal_disclaimer.title %> - Mega Downloader</title>
+    <link rel="canonical" href="https://mega-downloader.xyz<%= originalUrl %>" />
+    <link rel="stylesheet" href="/style.min.css">
+</head>
+<body>
+    <%- include('../partials/navbar', { t: t, lang: lang, originalUrl: originalUrl }) %>
+    <div class="legal-page">
+        <h1><%= t.legal_disclaimer.title %></h1>
+        <p><%= t.legal_disclaimer.p1 %></p>
+        <p><%= t.legal_disclaimer.p2 %></p>
+        <p><%= t.legal_disclaimer.p3 %></p>
+    </div>
+    <%- include('../partials/footer', { t: t, lang: lang, originalUrl: originalUrl }) %>
+</body>
+</html>

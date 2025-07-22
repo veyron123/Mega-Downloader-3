@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "youtube": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anaisbetts/mcp-installer",
+        "@anaisbetts/mcp-youtube"
+      ]
+    }
+  }
+}

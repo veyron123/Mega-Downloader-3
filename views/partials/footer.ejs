@@ -2,6 +2,7 @@
     <div class="footer-content">
         <div class="footer-column">
             <p><%- t.footer.rights %></p>
+            <p class="ssl-info">Secure connection via Firebase & Let's Encrypt</p>
         </div>
         <div class="footer-column">
             <h4><%= t.footer.more_links %></h4>
@@ -11,7 +12,15 @@
                 <li><a href="/<%= lang %>/instagram"><%= t.nav.instagram %></a></li>
                 <li><a href="/<%= lang %>/twitter"><%= t.nav.twitter %></a></li>
                 <li><a href="/<%= lang %>/tiktok"><%= t.nav.tiktok %></a></li>
-                <li><a href="/<%= lang %>/terms"><%= t.footer.terms_link %></a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="/<%= lang %>/terms"><%= t.terms_of_service.title %></a></li>
+                <li><a href="/<%= lang %>/privacy"><%= t.privacy_policy.title %></a></li>
+                <li><a href="/<%= lang %>/disclaimer"><%= t.legal_disclaimer.title %></a></li>
+                <li><a href="/sitemap.xml">Sitemap</a></li>
             </ul>
         </div>
         <div class="footer-column">

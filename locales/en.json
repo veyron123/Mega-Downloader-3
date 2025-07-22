@@ -63,13 +63,15 @@
     "title": "Online Audio to Text Converter",
     "subtitle": "Transcribe audio to text with Mega-Downloader — an AI-powered transcription tool that supports 99+ languages. Get started for free today.",
     "local_file_title": "Local File Conversion",
-    "local_file_desc": "Upload an audio file from your computer for transcription.",
-    "drop_zone_prompt": "Click to upload or drag and drop",
+    "local_file_text": "Upload an audio or video file from your computer to transcribe it.",
+    "drop_zone_prompt": "Click to upload, or drag and drop",
     "upload_button": "Upload Audio",
+    "local_file_footer": "*Supports files up to 30 minutes",
     "url_title": "Transcription from URL",
-    "url_desc": "Simply paste a multimedia URL to transcribe audio from a web page.",
-    "url_placeholder": "https://youtube.com/...",
-    "url_button": "Upload URL",
+    "url_text": "Simply paste a multimedia URL to transcribe audio from a web page.",
+    "url_placeholder": "Paste video URL...",
+    "transcribe_button": "Transcribe",
+    "url_footer": "*Free transcription quota: 2 uses",
     "info_duration": "*Supports files up to 30 minutes",
     "info_quota": "Free transcription quota: 2 uses",
     "quota_tooltip": "This is the number of transcriptions available in the free plan.",
@@ -79,5 +81,29 @@
     "features_title_4": "Speaker identification",
     "features_title_5": "Files in 6 hours",
     "features_title_6": "Confidentiality and security"
+  },
+  "legal_disclaimer": {
+    "title": "Legal Disclaimer",
+    "p1": "Our service is a technical tool that allows users to download publicly available content from various platforms for personal use (e.g., for offline viewing or creating a backup).",
+    "p2": "We do not store content on our servers. All responsibility for the use of materials obtained through our service lies with the end-user. We strongly recommend respecting copyrights and not using our tool to download and distribute copyrighted content without the permission of the copyright holder.",
+    "p3": "Please ensure that your actions comply with the laws of your country and the terms of use of the respective platforms."
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "p1": "We value your privacy. This policy explains what data we collect and how we use it.",
+    "h2_1": "What data do we collect?",
+    "p2": "We do not collect, store, or share any personal information about our users. We do not require registration. We may collect anonymous usage data (e.g., number of downloads) to improve our service. We do not log IP addresses or the URLs you enter.",
+    "h2_2": "How do we use your data?",
+    "p3": "Since we do not collect personal data, we do not use it in any way. Anonymous statistics are used solely for technical analysis and to improve our service.",
+    "h2_3": "Security",
+    "p4": "All connections to our site are protected with SSL encryption (HTTPS), which ensures the security of the transmitted data."
+  },
+  "terms_of_service": {
+    "title": "Terms of Service",
+    "p1": "By using our site, you agree to these Terms of Service.",
+    "h2_1": "Responsible Use",
+    "p2": "You agree to use our service only for lawful purposes and in accordance with the rules of the platforms from which you download content. You are solely responsible for complying with copyrights.",
+    "h2_2": "Limitation of Liability",
+    "p3": "The service is provided 'as is'. We are not liable for any damages arising from the use of our site or for the unavailability of the service."
   }
 }
